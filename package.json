@@ -1,6 +1,6 @@
 {
   "name": "nextjs-with-cqfill",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "CC0-1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
   "dependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
-    "cqfill": "0.3.1",
+    "cqfill": "0.4.0",
     "next": "latest",
     "postcss-nesting": "latest",
     "react": "latest",

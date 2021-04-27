@@ -3,11 +3,11 @@
 	flex-flow: wrap column;
 	padding: 0.25em;
 
-	@container (min-width: 400px) {
+	@container (width >= 400px) {
 		flex-direction: row;
 	}
 
-	@container (min-width: 760px) {
+	@container (width >= 760px) {
 		align-items: center;
 		flex-direction: column;
 		justify-content: center;
@@ -24,14 +24,14 @@
 	height: 8em;
 	width: 100%;
 
-	@container (min-width: 400px) {
+	@container (width >= 400px) {
 		align-self: flex-start;
 		max-height: none;
 		margin-right: 1em;
 		width: 8rem;
 	}
 
-	@container (min-width: 760px) {
+	@container (width >= 760px) {
 		bottom: 0;
 		height: 100%;
 		left: 0;
@@ -48,7 +48,7 @@
 .contentCss {
 	flex: 1;
 
-	@container (min-width: 760px) {
+	@container (width >= 760px) {
 		flex: unset;
 		position: relative;
 	}

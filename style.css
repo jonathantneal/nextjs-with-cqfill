@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+	box-sizing: border-box; /* 1 */
+	background-repeat: no-repeat; /* 2 */
+}
+
+::before,
+::after {
+	text-decoration: inherit; /* 1 */
+	vertical-align: inherit; /* 2 */
+}
+
+html {
+	cursor: default; /* 1 */
+	line-height: 1.5; /* 2 */
+	overflow-wrap: anywhere; /* 3 */
+	-moz-tab-size: 4; /* 4 */
+	tab-size: 4; /* 4 */
+	-webkit-tap-highlight-color: transparent /* 5 */;
+	-webkit-text-size-adjust: 100%; /* 6 */
+}
+
+body {
+	font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	padding: 2em;
+}
+
+.container {
+	border-radius: 0.25rem;
+	box-shadow: 0 0 0 1px #c9c9c9;
+	contain: layout inline-size;
+	margin: 1rem auto;
+	overflow: auto;
+	resize: horizontal;
+	width: 200px;
+}
+

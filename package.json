@@ -1,0 +1,24 @@
+{
+  "name": "nextjs-with-cqfill",
+  "version": "0.3.0",
+  "license": "CC0-1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "cqfill": "0.3.0",
+    "next": "latest",
+    "postcss-nesting": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest"
+  },
+  "keywords": [
+    "next"
+  ]
+}

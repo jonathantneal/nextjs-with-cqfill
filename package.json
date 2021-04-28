@@ -11,7 +11,7 @@
   "dependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
-    "cqfill": "0.4.0",
+    "cqfill": "0.5.0",
     "next": "latest",
     "postcss-nesting": "latest",
     "react": "latest",

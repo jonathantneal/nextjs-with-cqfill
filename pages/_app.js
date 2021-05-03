@@ -1,9 +1,7 @@
-import '../style.css'
-import { cqfill } from 'cqfill'
+import 'cqfill'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-	cqfill()
-
 	return <Component {...pageProps} />
 }
 

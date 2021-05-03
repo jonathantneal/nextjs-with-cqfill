@@ -1,6 +1,6 @@
 {
 	"plugins": [
-		"postcss-nesting/postcss-7",
-		"cqfill/postcss-7"
+		"postcss-nesting",
+		"cqfill/postcss"
 	]
 }
